@@ -1,0 +1,10 @@
+name: qlib-examples
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - pyqlib
+    - joblib==1.4.2 # 否则会报错
